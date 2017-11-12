@@ -8,4 +8,6 @@ let conn = mysql.createConnection({
 conn.query('select * from xz_user', (err,res)=>{
 	if(err) throw err;
 	console.log(res);
+
 });
+conn.end();
