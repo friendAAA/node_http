@@ -8,7 +8,7 @@ reader.question("input ur name:",(name)=>{
 	// reader.close();
 	process.exit(0);
 });
-const a=require("http");
+
 
 
 
